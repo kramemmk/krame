@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#header{
+    width: 100%;
+    height: 150px;
+    background-color: #a52a2a;
+}
+#imgh{
+    width: 7%;
+    height: 100%;
+    float: right;
+    
+    background-color: rgb(36, 165, 182);
+}
+#h1header{
+    width: 20%;
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 160px;
+    text-align: center;
+    float:right;
+    height: 100%;
+    background-color: white;
+}
+nav{
+    width: 75%;
+}
+nav a{
+text-decoration: none;
+color: white;
+display: inline-block;
+width: 100%;
+}
+nav li{
+    line-height: 150px;
+    font-weight: bold;
+    font-size: 2vw;
+    display: inline-table;
+    width: 16%;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Goldman', cursive;
+    font-family: 'Roboto Slab', serif;
+}
+nav a:hover{
+    background-color: white;
+    color: red;   
+}
+#div1{
+    width: 100%;
+    height: auto;
+    border-top: 5px solid rgb(255, 255, 255);
+    background-color: chartreuse;
+    position: relative;
+}
+
+#facebook{
+    width: 100px;
+    height: 100px;
+    display: block;
+    transform: translate(30px ,900px);
+    position: fixed;
+}
+#instagram{
+    width: 80px;
+    height: 80px;
+    display: block;
+    transform: translate(20px ,500px);
+    position: fixed;
+}
+#google{
+    width: 80px;
+    height: 80px;
+    display: block;
+    transform: translate(20px ,545px);
+    position: fixed;
+}
+fieldset{
+    width: 100%;
+    display: block;
+}
+fieldset li{
+    font-size: 40px;
+
+}
+fieldset legend{
+    font-size: 50px;
+    font-weight: bold;
+    transform: translateX(-10px)
+}
+@media (max-width:2100px){
+    #h1header{
+        font-size: 3vw;
+    }
+}
+@media (max-width:1700px){
+    header{
+        height: 500px;
+        float: none;
+        width: auto;
+        display: inline-block;
+        height: auto;
+    }
+    #imgh{
+        float: none;
+        width: 100%;
+        height: 300px;
+        background-color: white;
+        object-fit: contain;
+    }
+    nav li {
+        line-height: 0%;
+        padding: 5%;
+        width: 100%;
+        display: table-cell;
+    }
+    #h1header{
+        font-size: 50px;
+        height: auto;
+        font-weight: bold;
+        float: none;
+        width: 100%;
+        line-height: 100px;
+        background-color: white;
+    }
+    nav{
+        width: 100%;
+        background-color: #a52a2a;
+    }
+    #facebook{
+        width: 50px;
+        height: 50px;
+        transform: translate(5px ,250px);
+    }
+    #instagram{
+        width: 40px;
+        height: 40px;
+        transform: translate(5px ,150px);
+    }#google{
+        width: 40px;
+        height: 40px;
+        transform: translate(10px ,344px);
+    }
+    fieldset{
+        float: right;
+    }
+    #div1{
+        top: 70px;
+        border-top: 0px;
+    }
+    body{
+        background-color: chartreuse;
+    }
+}
